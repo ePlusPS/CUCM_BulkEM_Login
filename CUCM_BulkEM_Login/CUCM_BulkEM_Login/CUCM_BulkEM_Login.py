@@ -18,7 +18,7 @@
 #  C:\Users\Brian>py -m pip install requests
 #
 # Then run the program BulkEM_Login.py
-#  C:\Users\Brian>py BulkEM_Login.py Hostname/IP EM-API-Username EM-API-Password myfile.txt
+#  C:\Users\Brian>py CUCM_BulkEM_Login.py Hostname/IP EM-API-Username EM-API-Password myfile.txt
 #
 # You can pass in the parameters on the command line or edit the
 # sys.argv line at the bottom of the script.
@@ -64,5 +64,5 @@ def main(argv):
 
 if __name__ == "__main__":
    #Replace the below values or pass the commands through the command-line and remove the below line
-   sys.argv = ["BulkEM_Login.py", "192.168.1.1", "admin", "mypassword", "myfile.txt"]
+   sys.argv = ["CUCM_BulkEM_Login.py", "192.168.1.1", "admin", "mypassword", "myfile.txt"]
    main(sys.argv[1:])
