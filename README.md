@@ -9,7 +9,9 @@ The CUCM user must have this access control group assigned:
 Standard EM Authentication Proxy Rights
 
 Sample CSV format:
+
 devicename,profile,user
+
 SEP00AABBCCDDEE,EM_bmeade,bmeade
 
 Sample SQL statement to get devicename, profile, and user from another cluster:
